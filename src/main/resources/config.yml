@@ -1,0 +1,46 @@
+DB_HOST: localhost
+DB_NAME: hcf
+DB_PORT: '3306'
+DB_PASS: password
+DB_USER: root
+
+server_name: 'cheeky hcf'
+map_number: 1
+faction_limit: 4
+
+kitmap_mode: false
+
+enchant_limits:
+  sharpness: 2
+  protection: 2
+
+
+end_portal_exit:
+  x: 0
+  y: 100
+  z: 0
+
+
+server_claims:
+  spawn:
+    spawn_corner_1_x: -50
+    spawn_corner_1_z: 50
+    spawn_corner_2_x: 50
+    spawn_corner_2_z: -50
+
+  glowstone_mountain:
+    claim_corner_1_x: null
+    claim_corner_1_z: null
+    claim_corner_2_x: null
+    claim_corner_2_z: null
+
+    # this is the area where the glowstone regenerates every 15 mins
+    glowstone_respawn_area:
+      corner_1_x: null
+      corner_1_y: null
+      corner_1_z: null
+      corner_2_x: null
+      corner_2_y: null
+      corner_2_z: null
+
+

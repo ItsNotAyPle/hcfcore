@@ -1,0 +1,46 @@
+name: hcfcore
+version: '${project.version}'
+main: org.ayple.hcfcore.Hcfcore
+api-version: '1.8.8'
+authors: [PringlesProgrammer]
+depend: [Vault]
+commands:
+  faction:
+    description: "core faction command"
+    aliases: [f]
+    usage: "/f [sub command]"
+
+  logout:
+    description: "logout safely"
+    usage: "COMING NEXT MAP"
+
+  balance:
+    description: "get your balance"
+    usage: "/bal"
+    aliases: [bal]
+
+  lives:
+    description: "display your lives"
+    usage: "/lives"
+
+  revive:
+    description: "revive a player"
+    usage: "/revive [player_name]"
+
+#  kit:
+#    description: "get a kit"
+#    usage: "/kit [kit name]"
+
+  pvpenable:
+    description: "disables your pvp timer"
+    usage: "/pvpenable"
+    aliases: ["pvp enable"]
+
+  staff:
+    description: "enable staff mode"
+    usage: "/staff"
+    aliases: ["v"]
+
+  msg:
+    description: "private message someone"
+    usage: "/msg [player] [message]"

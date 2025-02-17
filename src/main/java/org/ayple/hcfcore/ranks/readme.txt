@@ -1,0 +1,1 @@
+ranks was changed to work with another plugin (luckyperms) instead
